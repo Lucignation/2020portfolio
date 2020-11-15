@@ -1,0 +1,1427 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+/* img{
+    width: 150px;
+} */
+
+html, body {
+  overflow-x: hidden;
+}
+
+ body
+ {
+   margin: 0;
+   padding: 0;
+   background: #4b0092;
+   max-width: 100%;
+   position: relative;
+   
+   /* make it look decent enough */
+   /* background: #4b0092; */
+   color: #cdcdcd;
+   /* font-family: "Avenir Next", "Avenir", sans-serif; */
+ }
+
+ #first__container, #second__container, #third__container, #fourth__container, #fifth__container{
+  height: 95vh;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+ /******  PRELOADER STYLE  ******/
+
+ .loader {
+   display: none;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/******  END PRELOADER STYLE  ******/
+
+ /******* FIRST CONTAINER STYLE ********/
+
+ /* #first__container{
+   display: grid;
+   grid-template-columns: 45% 45%;
+   grid-column-gap: 10%;
+ }
+
+.first__container-right img{
+  position: absolute;
+  width: 300px;
+  bottom: 65px;
+  border-radius: 0px 40px 0px 40px;
+}
+
+.right__border{
+}
+
+#first__container, #second__container, #third__container, #fourth__container, #fifth__container{
+  padding: 0px 5%;
+  height: 100vh;
+}
+
+.first__container-left{
+  width: 100%;
+}
+
+.first__container-right{
+
+  background: url("../images/BG.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  color: white;
+}
+
+.first__container-head h1{
+  font-size: 80px;
+  font-weight: 500;
+  color: #06ff8b;
+  padding-top: 50px;
+  font-family: 'Fredoka One', cursive;
+  line-height: 1;
+}
+
+.first__container-head h1 span{
+  color: white;
+}
+
+.right__background{
+  background: #06ff8b;
+  margin: auto;
+  width: 50%;
+  height: 85.2vh;
+  z-index: 1;
+}
+
+#special__letter{
+  translate: 30deg;
+}
+
+.first__container-head h3{
+  font-size: 16px;
+  width: 95%;
+  color: white;
+  font-weight: normal;
+  line-height: 1.3;
+  margin-top: -30px;
+}
+
+.first__container-lower{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  margin-top: 130px;
+}
+
+.first__container-lower h5{
+  width: 90%;
+  font-size: 12px;
+  color: #06ff8b;
+  font-weight: normal;
+} */
+
+
+#first__container{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  padding-top: 5%;
+  background: url('../images/BG3.png');
+  background-position: top;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+
+.first__container-head h1{
+  color: #06ff8b;
+  font-family: 'Fredoka One', cursive;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.first__container-head h1 span{
+  color: #fff;
+}
+
+.first__container-head h3{
+  color: #fff;
+  margin-top: -5%;
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 80%;
+  font-weight: normal;
+}
+
+.first__container-lower{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  padding-top: 15%;
+  color: #06ff8b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+
+}
+
+/****  RIGHT FIRST CONTAINER  ****/
+
+.first__container-right{
+  width: 100%;
+
+}
+
+.first__container-right img{
+  max-width: 250px;
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 4.5%;
+}
+
+.right__border{
+  height: 50vh;
+  width: 250px;
+  border: 3px solid #fff;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 7%;
+}
+
+.right__background{
+  background: url('../images/BG.png'),linear-gradient( to left, #06ff8b,#06ff8b);
+  height: 95vh;
+  width: 85%;
+}
+
+/****  END RIGHT FIRST CONTAINER  ****/
+
+
+/******* END FIRST CONTAINER STYLE ********/
+
+  /******* SECOND CONTAINER STYLE ********/
+
+  #second__container{
+    background: url("../images/BG.png"),  linear-gradient(to right, #f5f5f5,  #f5f5f5);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .second__container-designer{
+    padding-top: 5%;
+  }
+
+  .second__container-designer,  .second__container-building{
+    width: 50%;
+  }
+
+  .second__container-designer h1, .second__container-building h1{
+    color: #4b0092;
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .second__container-designer h1 span{
+    color: #06ff8b;
+  }
+
+  .second__container-designer h3, .second__container-building h3{
+    color: #2d0255;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: -20px;
+  }
+
+
+
+  .second__container-building{
+    padding-left: 50%;
+    margin-top: 6%;
+  }
+
+    /******* END SECOND CONTAINER STYLE ********/
+
+
+
+  /******* THIRD CONTAINER STYLE ********/
+
+  #third__container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #4b0092;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .third__container-about{
+    width: 100%;
+    background: url('../images/about-bg.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .third__container-about h1{
+    width: 75%;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+    color: #06ff8b;
+  }
+
+  .third__container-about h1 span{
+    border-bottom: 5px solid #e69595;
+    color: white;
+  }
+
+  .third__container-about p{
+    width: 60%;
+  }
+
+  .third__container-bg{
+    margin-top: 20%;
+  }
+
+  .third__container-bg img{
+    max-width: 600px;
+  }
+
+
+  /******* END THIRD CONTAINER STYLE ********/
+
+
+ /******* FOURTH CONTAINER STYLE ********/
+
+ #fourth__container{
+   background: url('../images//BG.png'), linear-gradient(to right, #f5f5f5, #f5f5f5);
+   background-position: center;
+   background-size: contain;
+ }
+
+.fourth__container-inner{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #f8f8f8;
+  margin-top: 15%;
+  padding: 15% 30px;
+}
+
+.fourth__container-inner-design{
+  border-right: 2px solid #2d0255;
+  height: 60vh;
+}
+
+.fourth__container-inner h1{
+  color: #4b0092;
+  width: 45%;
+  padding-left: 10%;
+  font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.fourth__container-inner h4{
+  color: #2d0255;
+  width: 35%;
+  padding-left: 10%;
+}
+
+.fourth__container-inner-design h4 span{
+  border-bottom: 5px solid #06ff8b;
+  margin-top: -10px;
+}
+
+
+a, a > span {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #2d0255;
+  margin-left: 39px;
+}
+
+a, a > span i{
+  margin-left: 10px;
+  margin-top: 2px;
+}
+a:before, a:after, a > span:before, a > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+
+.hover-5 {
+  display: inline-block;
+  overflow: hidden;
+}
+.hover-5:before, .hover-5:after {
+  right: 0;
+  bottom: 0;
+  background: #492059;
+}
+.hover-5:before {
+  width: 100%;
+  height: 2px;
+  transform: translateX(-100%);
+}
+.hover-5:after {
+  width: 2px;
+  height: 100%;
+  transform: translateY(100%);
+}
+.hover-5 > span {
+  display: flex;
+  padding: 10px;
+}
+.hover-5 > span:before, .hover-5 > span:after {
+  left: 0;
+  top: 0;
+  background: #492059;
+}
+.hover-5 > span:before {
+  width: 100%;
+  height: 2px;
+  transform: translateX(100%);
+}
+.hover-5 > span:after {
+  width: 2px;
+  height: 100%;
+  transform: translateY(-100%);
+}
+.hover-5:hover:before, .hover-5:hover:after, .hover-5:hover > span:before, .hover-5:hover > span:after {
+  transform: translate(0, 0);
+}
+
+
+
+
+ /******* END FOURTH CONTAINER STYLE ********/
+
+
+
+  /******* FIFTH CONTAINER STYLE ********/
+
+  #fifth__container{
+    padding-top: 10%;
+    background: url('../images//BG.png'), linear-gradient(to left, #f8f8f8, #f8f8f8);
+    background-size: contain;
+  }
+
+  #fifth__container h1, #fifth__container h3{
+    text-align: center;
+  }
+
+  #fifth__container h1{
+    color: #4b0092;
+    width: 55%;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+
+  }
+
+  #fifth__container h3{
+    color: #232323;
+    width: 35%;
+    margin: auto;
+  }
+
+  .input{
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+
+  form{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+  }
+
+  form input[type="text"], form input[type="email"],
+  form textarea{
+    width: 90%;
+    margin: auto;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #2d0255;
+    margin-top: 5%;
+    outline: none;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  form label{
+    color: #2d0255;
+  }
+
+  ::placeholder{
+    color: #a9a9a9;
+  }
+
+  .input{
+    margin-bottom: 5%;
+  }
+
+  form textarea{
+    width: 95%;
+    resize: none;
+  }
+
+  .hover-5 input{
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+
+  
+
+
+
+
+  /******* END FIFTH CONTAINER STYLE ********/
+
+
+
+
+
+
+
+
+ /*MEDIA QUERY (Mobile View)   */
+
+ .social__media{
+   margin-top: 60px;
+ }
+ 
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   left: 30px;
+   width:90%;
+   
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #232323;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: #06ff8b;
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -7px;
+   left: -5px;
+   
+   cursor: pointer;
+   
+   opacity: 0; /* hide this */
+   z-index: 2; /* and place it over the hamburger */
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ /*
+  * Just a quick hamburger
+  */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #06ff8b;
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #06ff8b;
+ }
+ 
+ /*
+  * But let's hide the middle one.
+  */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ /*
+  * Ohyeah and the last one should go the other direction
+  */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+ /*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+ #menu
+ {
+   position: absolute;
+   width: 300px;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   
+   background: #ededed;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+ }
+ 
+ /*
+  * And let's slide it in from the left
+  */
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }
+
+
+
+ /**************    CONTACT STYLING  ****************/
+
+ #contact{
+    background: #f5f5f5;
+    display: grid;
+    grid-template-columns: 30% 65%;
+
+    margin-top: 10%;
+    padding: 5%;
+ }
+
+ .contact__info h1{
+  color: #4b0092;
+  width: 85%;
+  font-size: 50px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 700;
+ }
+
+ .contact__info h4{
+   font-size: 18px;
+   color: #232323;
+   width: 95%;
+ }
+
+ #contact form textarea{
+   width: 95%;
+ }
+
+
+  /**************    END CONTACT STYLING  ****************/
+
+
+ /********    FOOTER STYLING    *********/
+
+
+ #footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    font-family: sans-serif;
+    padding: 30px;
+    background: #2d0255;
+ }
+
+ #footer ul{
+   width: 100%;
+ }
+
+ #footer ul li{
+  list-style: none;
+}
+
+ #footer ul a, .social__media a {
+  color: #06ff8b;
+  text-decoration: none;
+}
+
+
+
+  /********   END FOOTER    *********/
+
+
+
+  /*============ MEDIA QUERIES ============*/
+
+/* Devices under 992px (lg) */
+
+@media(max-width: 991px){
+
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #first__container, #second__container, #third__container, #fourth__container, #fifth__container{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #first__container, #third__container, #fourth__container, #fifth__container{
+    height: 20.3vh;
+  }
+
+  #second__container{
+    height: 10.3vh;
+  }
+
+  /******* FIRST CONTAINER STYLE ********/
+
+
+#first__container{
+  display: grid;
+  grid-template-columns: repeat(45%,45%);
+  background: url('../images/BG3.png');
+  background-position: top;
+  background-size: 90%;
+  margin-top: 15%;
+  width: 100%;
+}
+
+
+.first__container-head h1{
+  color: #06ff8b;
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.first__container-head h1 span{
+  color: #fff;
+}
+
+.first__container-head h3{
+  color: #fff;
+  margin-top: -5%;
+  font-family: sans-serif;
+  font-size: 12px;
+  width: 80%;
+  font-weight: normal;
+}
+
+.first__container-lower{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 7%;
+  padding-top: 25%;
+  color: #06ff8b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  padding-bottom: 18%;
+
+}
+
+/****  RIGHT FIRST CONTAINER  ****/
+
+.first__container-right{
+  width: 100%;
+
+}
+
+.first__container-right img{
+  max-width: 200px;
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 3%;
+}
+
+.right__border{
+  height: 23vh;
+  width: 200px;
+  border: 3px solid #fff;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 6%;
+}
+
+.right__background{
+  background: url('../images/BG.png'),linear-gradient( to left, #06ff8b,#06ff8b);
+  height: 42.9vh;
+  max-width: 100%;
+}
+
+/****  END RIGHT FIRST CONTAINER  ****/
+
+
+/******* END FIRST CONTAINER STYLE ********/
+
+
+/******* SECOND CONTAINER STYLE ********/
+
+#second__container{
+  width: 90%;
+  height: 65vh;
+  padding-left: 0%;
+  padding-right: 10%;
+}
+
+.second__container-designer{
+  padding-top: 17%;
+  /* background-color: red; */
+}
+
+.second__container-designer,  .second__container-building{
+  width: 50%;
+  margin: auto;
+}
+
+.second__container-designer h1, .second__container-building h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.second__container-designer h3, .second__container-building h3{
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+
+.second__container-building{
+  margin-top: 16%;
+}
+
+  /******* END SECOND CONTAINER STYLE ********/
+
+
+
+   /******* THIRD CONTAINER STYLE ********/
+
+   #third__container{
+    display: grid;
+    grid-template-columns: repeat(45%, 45%);
+    background: #4b0092;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    height: 53vh;
+    padding-left: 10%;
+    padding-right: 0%;
+  }
+
+  .third__container-about{
+    width: 100%;
+    background: url('../images/about-bg.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .third__container-about h1{
+    width: 75%;
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+    color: #06ff8b;
+  }
+
+  .third__container-about p{
+    width: 90%;
+  }
+
+  .third__container-bg{
+    margin-top: 69%;
+  }
+
+  .third__container-bg img{
+    max-width: 330px;
+    margin-right: 80%;
+  }
+
+
+  /******* END THIRD CONTAINER STYLE ********/
+
+
+
+  /******* FOURTH CONTAINER STYLE ********/
+
+ #fourth__container{
+  background: url('../images//BG.png'), linear-gradient(to right, #f5f5f5, #f5f5f5);
+  background-position: center;
+  background-size: contain;
+  padding-top: 4%;
+  padding-bottom: 15%;
+  margin-top: 13%;
+  height: 28vh;
+}
+
+.fourth__container-inner{
+ display: grid;
+ grid-template-columns: repeat(45%, 45%);
+ grid-gap: 10%;
+ background: #f6f6f6;
+ padding:  0px;
+}
+
+.fourth__container-inner-design{
+ border-right: none;
+ height: inherit;
+ padding-bottom: 15%;
+}
+
+.fourth__container-inner h1{
+ color: #4b0092;
+ width: 75%;
+ padding-left: 5%;
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.fourth__container-inner h4{
+ color: #2d0255;
+ width: 95%;
+ padding-left: 5%;
+}
+
+.fourth__container-inner-design h4 span{
+ border-bottom: 5px solid #06ff8b;
+ margin-top: -10px;
+}
+
+
+a, a > span {
+ position: relative;
+ color: inherit;
+ text-decoration: none;
+ line-height: 24px;
+ font-weight: normal;
+ font-size: 18px;
+ color: #2d0255;
+ margin-left: 39px;
+}
+
+a, a > span i{
+ margin-left: 0px;
+ margin-top: 2px;
+}
+a:before, a:after, a > span:before, a > span:after {
+ content: '';
+ position: absolute;
+ transition: transform .5s ease;
+}
+
+.hover-5 {
+ display: inline-block;
+ overflow: hidden;
+}
+.hover-5:before, .hover-5:after {
+ right: 0;
+ bottom: 0;
+ background: #492059;
+}
+.hover-5:before {
+ width: 100%;
+ height: 2px;
+ transform: translateX(-100%);
+}
+.hover-5:after {
+ width: 2px;
+ height: 100%;
+ transform: translateY(100%);
+}
+.hover-5 > span {
+ display: flex;
+ padding: 10px;
+}
+.hover-5 > span:before, .hover-5 > span:after {
+ left: 0;
+ top: 0;
+ background: #492059;
+}
+.hover-5 > span:before {
+ width: 100%;
+ height: 2px;
+ transform: translateX(100%);
+}
+.hover-5 > span:after {
+ width: 2px;
+ height: 100%;
+ transform: translateY(-100%);
+}
+.hover-5:hover:before, .hover-5:hover:after, .hover-5:hover > span:before, .hover-5:hover > span:after {
+ transform: translate(0, 0);
+}
+
+
+
+
+/******* END FOURTH CONTAINER STYLE ********/
+
+
+  /******* FIFTH CONTAINER STYLE ********/
+
+  #fifth__container{
+    padding-top: 10%;
+    background: url('../images//BG.png'), linear-gradient(to left, #f8f8f8, #f8f8f8);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 58vh;
+  }
+
+  #fifth__container h1, #fifth__container h3{
+    text-align: center;
+  }
+
+  #fifth__container h1{
+    color: #4b0092;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+
+  }
+
+  #fifth__container h3{
+    color: #232323;
+    width: 95%;
+    margin: auto;
+    font-size: 14px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .input{
+      display: grid;
+      grid-template-columns:repeat(1, auto);
+  }
+
+  form{
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+  }
+
+  form input[type="text"], form input[type="email"],
+  form textarea{
+    width: 95%;
+    margin: auto;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #2d0255;
+    margin-top: 5%;
+    outline: none;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+
+  /********    FOOTER STYLING    *********/
+
+
+ #footer{
+  display: grid;
+  grid-template-columns: repeat(50%, 50%);
+  font-family: sans-serif;
+  padding: 20px;
+  background: #2d0255;
+  font-size: 14px;
+}
+
+#footer ul{
+ width: 100%;
+}
+
+#footer ul li{
+  width: 50%;
+list-style: none;
+}
+
+#footer ul a, .social__media a {
+color: #06ff8b;
+text-decoration: none;
+font-size: 14px;
+padding: 20px;
+}
+
+
+
+/********   END FOOTER    *********/
+
+  
+
+
+
+
+  /******* END FIFTH CONTAINER STYLE ********/
+
+
+
+
+
+}
+
+
+/* Devices under 768px (md) */
+
+@media(max-width: 768px){
+
+  .first__container-right{
+    padding-bottom: 10%;
+  
+  }
+
+  #first__container{
+    padding-bottom: 30%;
+  }
+
+}
+
+@media(max-width: 575px){
+
+
+  #first__container, #third__container, #fourth__container, #fifth__container{
+    height: 101.3vh;
+  }
+
+  #first__container{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    background: url('../images/BG3.png');
+    background-position: top;
+    background-size: 90%;
+    margin-top: 15%;
+  }
+
+  
+/****  RIGHT FIRST CONTAINER  ****/
+
+.first__container-right{
+  width: 100%;
+
+}
+
+.first__container-right img{
+  max-width: 250px;
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 9.5%;
+}
+
+.right__border{
+  height: 42vh;
+  width: 250px;
+  border: 3px solid #fff;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 12%;
+}
+
+.right__background{
+  background: url('../images/BG.png'),linear-gradient( to left, #06ff8b,#06ff8b);
+  height: 48.7vh;
+  max-width: 100%;
+}
+
+/****  END RIGHT FIRST CONTAINER  ****/
+
+.second__container-designer,  .second__container-building{
+  width: 80%;
+  padding-left: 10%;
+}
+
+/******* SECOND CONTAINER STYLE ********/
+
+#second__container{
+  width: 90%;
+  height: 85vh;
+  padding-left: 0%;
+  padding-right: 10%;
+}
+
+/******* END SECOND CONTAINER STYLE ********/
+
+/******* THIRD CONTAINER STYLE ********/
+
+#third__container{
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  background: #4b0092;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  height: 103vh;
+  padding-left: 10%;
+  padding-right: 0%;
+}
+
+.third__container-about{
+  width: 100%;
+  background: url('../images/about-bg.png');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.third__container-about h1{
+  width: 75%;
+  font-size: 25px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 500;
+  color: #06ff8b;
+}
+
+.third__container-about p{
+  width: 90%;
+}
+
+.third__container-bg{
+  margin-top: 19%;
+}
+
+.third__container-bg img{
+  max-width: 330px;
+  margin-right: 80%;
+}
+
+
+/******* END THIRD CONTAINER STYLE ********/
+
+
+/******* FOURTH CONTAINER STYLE ********/
+
+#fourth__container{
+  background: url('../images//BG.png'), linear-gradient(to right, #f5f5f5, #f5f5f5);
+  background-position: center;
+  background-size: contain;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-top: 13%;
+  height: 88vh;
+}
+
+.fourth__container-inner{
+ display: grid;
+ grid-template-columns: repeat(1, auto);
+ background: #f6f6f6;
+ margin-top: 15%;
+ padding: 15% 0px;
+}
+
+.fourth__container-inner-design{
+ border-right: none;
+ height: inherit;
+ padding-bottom: 15%;
+}
+
+.fourth__container-inner h1{
+ color: #4b0092;
+ width: 75%;
+ padding-left: 5%;
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.fourth__container-inner h4{
+ color: #2d0255;
+ width: 95%;
+ padding-left: 5%;
+}
+
+.fourth__container-inner-design h4 span{
+ border-bottom: 5px solid #06ff8b;
+ margin-top: -10px;
+}
+
+
+
+
+/******* END FOURTH CONTAINER STYLE ********/
+
+
+ /******* FIFTH CONTAINER STYLE ********/
+
+ #fifth__container{
+  padding-top: 10%;
+  background: url('../images//BG.png'), linear-gradient(to left, #f8f8f8, #f8f8f8);
+  background-size:cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 68vh;
+}
+
+ /******* END FIFTH CONTAINER STYLE ********/
+
+  /**************    CONTACT STYLING  ****************/
+
+  #contact{
+    background: #f5f5f5;
+    display: grid;
+    grid-template-columns: 100%;
+
+    margin-top: 30%;
+    padding: 5%;
+ }
+
+ .contact__info h1{
+  color: #4b0092;
+  width: 85%;
+  font-size: 50px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 700;
+ }
+
+ .contact__info h4{
+   font-size: 18px;
+   color: #232323;
+   width: 95%;
+ }
+
+ #contact form textarea{
+   width: 95%;
+ }
+
+
+  /**************    END CONTACT STYLING  ****************/
+
+ /********    FOOTER STYLING    *********/
+
+
+ #footer{
+  display: grid;
+  grid-template-columns: 100%;
+  font-family: sans-serif;
+  padding: 20px;
+  background: #2d0255;
+  font-size: 14px;
+}
+
+ /********    END FOOTER STYLING    *********/
+
+}
+
+@media(width: 414px){
+  #footer{
+    display: grid;
+    grid-template-columns: 100%!important;
+    font-family: sans-serif;
+    padding: 20px;
+    background: #2d0255;
+    font-size: 14px;
+  }
+}
+
+@media(width: 375px){
+  #third__container{
+    padding-bottom: 51%!important;
+  }
+
+  #fourth__container{
+    padding-bottom: 20%;
+  }
+}
+
+
+@media(width: 320px){
+
+  #first__container{
+    padding-bottom: 60%;
+  }
+
+   #second__container, #fourth__container{
+    padding-bottom: 40%;
+  }
+
+  #third__container{
+    overflow-y: scroll;
+  }
+
+  .third__container-about p{
+    width: 100%;
+  }
+
+  .first__container-right{
+    margin-left: -10%;
+  }
+
+  #fourth__container{
+    padding-bottom: 65%;
+  }
+
+}
+
+

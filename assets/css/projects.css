@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+
+
+#projects h1{
+    color: #06ff8b;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 600;
+}
+
+#projects h1 span{
+    color: #fff;
+}
+
+.branded__info2{
+    background: transparent!important;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.branded__info2 h1{
+    font-size: 60px;
+    color: #06ff8b;
+}
+
+.branded__info2 h4{
+    font-size: 16px;
+    margin-top: -2%;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#projects h3{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.projects{
+    /* background: #f3f3f3; */
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    padding: 75px;
+    background: url('../images/BG.png'), linear-gradient(to left, #f3f3f3, #f3f3f3);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.projects__single{
+    background: #f7f7f7;
+    /* padding: 20px; */
+    /* background: #1e0238; */
+
+    margin: 50px;
+    width: 95%;
+    transform-origin: 50% 0;
+    transition: all ease-in-out .3s;
+    overflow: hidden;
+    /* height: 50%; */
+}
+
+
+.projects__single:hover{
+   transform: translateY(-5%);
+   cursor: pointer;
+   box-shadow: 7px 8px 6px #02020241;
+}
+
+.projects__single img{
+    padding: 0px;
+    max-width: 350px;
+}
+
+.projects__single-info{
+    background: #fcfafa;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.projects__single-info h2{
+    color: #4b0092;
+    font-size: 25px;
+}
+
+.projects__single-info a{
+    border: 2px solid #06ff8b;
+    background-color: #06ff8b;
+    padding: 15px;
+    font-size: 14px;
+    width: 100%;
+    text-transform: lowercase;
+    margin: 0px;
+}
+
+.fa-arrow-circle-right{
+    animation: arrow 1s ease-in .6s infinite;
+}
+
+
+@keyframes arrow{
+    0%{
+        transform: translateX(-20%);
+        opacity: .5;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+
+
+
+  /*============ MEDIA QUERIES ============*/
+
+/* Devices under 768px (lg) */
+
+@media(width: 768px){
+    body{
+        padding: 0px;
+        margin: 0px;
+      }
+
+    .projects{
+        display: grid;
+        grid-template-columns: 45%, 45%;
+        padding: 0px;
+    }
+
+}
+
+/* Devices under 992px (md) */
+
+@media(max-width: 575px){
+    .projects{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0px;
+    }
+
+    .projects__single{
+        background: #f7f7f7;    
+        width: 85%;
+        margin: auto;
+        margin-top: 43px;
+        border-radius: 5px;
+        box-shadow: 7px 8px 4px #d6d6d6;
+    }
+    .projects__single img{
+        padding: 0px;
+        max-width: 300px;
+    }
+
+    .projects__single-last{
+        margin-bottom: 43px;
+    }
+
+    #projects, #branded{
+        text-align: center;
+    }
+
+    .branded__info2 h4{
+        width: 90%;
+        margin: auto;
+        font-size: 14px;
+        margin-top: -10%;
+    }
+}
