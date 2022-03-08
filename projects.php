@@ -28,7 +28,7 @@
 
 
         <div class="projects__single">
-            <img src="assets/images/projects/Lucig.png" alt="Lucig Empire Limited" />
+            <img src="assets/images/projects/LUCIG.png" alt="Lucig Empire Limited" />
             <div class="projects__single-info">
                 <h2>LucigHub</h2>
                 <a href="https://lucig.netlify.app/" target="_blank" ><i class="fas fa-arrow-circle-right"></i> LucigHub </a>
