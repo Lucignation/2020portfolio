@@ -11,6 +11,7 @@
 
 
     <title>Gerald Olumide | Portfolio Website: Frontend & Backend Developer and UI Designer</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body>
 

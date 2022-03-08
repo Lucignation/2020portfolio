@@ -10,12 +10,19 @@
 
     <div class="projects">
 
+        <div class="projects__single">
+            <img src="assets/images/projects/KreateSell.png" alt="KreateSell" />
+            <div class="projects__single-info">
+                <h2>KreateSell</h2>
+                <a href="https://dev.kreatesell.com/" target="_blank"><i class="fas fa-arrow-circle-right"></i> KreateSell </a>
+            </div>
+        </div>
 
         <div class="projects__single">
-            <img src="assets/images/projects/ecocity.png" alt="Ecocity Oil &amp; Gas" />
+            <img src="assets/images/projects/zigzag.png" alt="ZigZag Nation" />
             <div class="projects__single-info">
-                <h2>Ecocity Projects</h2>
-                <a href="ecocity.co"><i class="fas fa-arrow-circle-right"></i> ecocity.co</a>
+                <h2>ZigZag Nation</h2>
+                <a href="https://zigzagnation.net/" target="_blank"><i class="fas fa-arrow-circle-right"></i> ZigZag Nation </a>
             </div>
         </div>
 
@@ -24,34 +31,41 @@
             <img src="assets/images/projects/Lucig.png" alt="Lucig Empire Limited" />
             <div class="projects__single-info">
                 <h2>LucigHub</h2>
-                <a href="lucighub.com"><i class="fas fa-arrow-circle-right"></i> lucighub.com</a>
+                <a href="https://lucig.netlify.app/" target="_blank" ><i class="fas fa-arrow-circle-right"></i> LucigHub </a>
+            </div>
+        </div>
+
+        <div class="projects__single">
+            <img src="assets/images/projects/ecocity.png" alt="Ecocity Oil &amp; Gas" />
+            <div class="projects__single-info">
+                <h2>Ecocity Projects</h2>
+                <a href="https://ecocity.group" target="_blank"><i class="fas fa-arrow-circle-right"></i> Ecocity </a>
             </div>
         </div>
 
 
         <div class="projects__single">
-            <img src="assets/images/projects/Henma.png" alt="Henma Empire Limited" />
+            <img src="assets/images/projects/travelexplorer.png" alt="My Travel Explorer" />
             <div class="projects__single-info">
-                <h2>Henma Beauty World</h2>
-                <a href="https://henmabeautyworld.com/"><i class="fas fa-arrow-circle-right"></i> henmabeautyworld.com</a>
-            </div>
-        </div>
-
-
-        <div class="projects__single">
-            <img src="assets/images/projects/AgroAfrica.png" alt="AgroAfria Magazine" />
-            <div class="projects__single-info">
-                <h2>AgroAfrica</h2>
-                <a href="http://agroafricamagazine.com/"><i class="fas fa-arrow-circle-right"></i> agroafricamagazine.com</a>
+                <h2>MyTravelExplorer</h2>
+                <a href="https://www.travelexplorer.ga/" target="_blank" ><i class="fas fa-arrow-circle-right"></i> MyTravelExplorer</a>
             </div>
         </div>
 
 
         <div class="projects__single projects__single-last">
-            <img src="assets/images/projects/Kemistrylife.png" alt="KemistryLife Television" />
+            <img src="assets/images/projects/website.png" alt="Hour Of Grace" />
             <div class="projects__single-info">
-                <h2>KemistryLife</h2>
-                <a href="https://kemistrylifetv.com/"><i class="fas fa-arrow-circle-right"></i> kemistrylifetv.com</a>
+                <h2>Jehovah Jireh</h2>
+                <a href="https://jehovahjirehchurch.com" target="_blank" ><i class="fas fa-arrow-circle-right"></i> Jehovah Jireh</a>
+            </div>
+        </div>
+
+        <div class="projects__single projects__single-last">
+            <img src="assets/images/projects/Alvine.png" alt="Alvine Homes" />
+            <div class="projects__single-info">
+                <h2>Alvine Properties Homes</h2>
+                <a href="https://alvinehomes.com.ng/" target="_blank" ><i class="fas fa-arrow-circle-right"></i> Alvine Properties Homes</a>
             </div>
         </div>
 
